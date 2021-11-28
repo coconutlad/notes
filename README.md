@@ -5,4 +5,5 @@ For future reference, since my memory is as good as that of a floppy disk being 
 I hope this isn't illegal.
 
 ## contents
-* [System design](./system-design.md)
+* [system design](./system-design.md)
+* [python segfault](./python-segfault.md)
