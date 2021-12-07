@@ -7,3 +7,4 @@ I hope this isn't illegal.
 ## contents
 * [system design](./system-design.md)
 * [python segfault](./python-segfault.md)
+* [practice](./practice.md)
