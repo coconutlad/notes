@@ -36,3 +36,23 @@ We operate on the hash output space which is 0..M-1. This can be viewed as a cir
 * For each request, find the closest server in the clockwise direction.
 
 This model still has issue of skewing when the number of servers change. Especially when the number of servers is small compared to M. To fix that we **get K locations for each server. Each location is got by `h(server_id + 'i')` where i goes from 0 to K-1.** This creates a more uniform distribution of servers even when there are less servers. A good value for K would be log(M).
+
+## Message queues
+A message queue is an asynchronous communication model in a system. It allows a system to receive request from users (and sending them a confirmation) while also processing other requests. Once complete the task is complete the system can send the response with the result to that user.  
+The requests received are stored in a ordered list (a database can be used for persistence). Multiple servers are available to process them. A load balancer can distribute the requests among them. It can also take care of the case where a server goes down and its requests have to be passed on to other nodes. For efficiency the database does not store the allocation of requests to servers, it just keeps track of the stage of processing the request is in.  
+The load balancer also keeps track of which servers are available via a heart beat system. These two along with the database make up the message queue.
+
+## Microservices and Monoliths
+A monolithic architecture is one where all the back-end computation happens on a single machine (which may be distributed and load balancing applied to it). They typically handle a variety of tasks and have a common database instance. A microservice has different machines for different types of back-end services. Those machines can have independent database instances.
+
+Monolithic architectures are good when:
+* The system complexity is low or development team is small (since they need to know how the whole system works)
+* Communication costs may be too high and it is required that data transfer happens within a program itself.
+* A lot of testing and setup code is common among the services and code duplication is not desirable.  
+It is often simpler to construct a monolithic system than architect a correct microservice system. StackOverflow uses a monolithic architecture!
+
+Microservices are good when:
+* The system needs to be reliable. Since machines usually run a single service a fault in that service will not crash other machines.
+* The system is complicated and is best imagined as a collection of communicating services. Helps if the business logic supports this separation of concerns.
+* The development team is large and maybe changing. A new person only needs to be familiar with the services they will be using / interacting with.
+* The system has to be scaled in a complicated manner. Each service can be scaled individually. They can use different tech stacks.
