@@ -8,3 +8,4 @@ I hope this isn't illegal.
 * [system design](./system-design.md)
 * [python segfault](./python-segfault.md)
 * [practice](./practice.md)
+* [hugo](./hugo-how.md)
