@@ -9,3 +9,4 @@ I hope this isn't illegal.
 * [python segfault](./python-segfault.md)
 * [practice](./practice.md)
 * [hugo](./hugo-how.md)
+* [wtf is systems](./wtf-is-systems.md)

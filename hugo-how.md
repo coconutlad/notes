@@ -68,3 +68,17 @@ Hugo's templates are context aware and can access many values. Here are a few of
 These are site level vars ("global vars"). Some of them are defined in the config file but Hugo has inbuilt vars too. `.Site.Params` has the values from the `params` section from the config.
 ### `.Site.Menus`
 Holds named array of menu entries. E.g. an array `main` in the config file can be accessed as `.Site.Menus.main`.
+### `.Title`
+Can be set in the configuration file. It's meant to be the title used in HTML.
+
+## Templates
+### The `baseof` page
+You can define it under `layouts/_default/` in your project root. It's the template that all other templates inherit from. You can use **blocks** in your template files. These blocks are replaced with content while rendering the HTML files. The format is: `{{ block "blk_name" .}} {{ end }}`. You can **define blocks** in other files and the content within them will be put where the blocks are used. The format is `{{ define "blk_name" }} [content] {{ end }}`.
+### The homepage
+Create a file `index.html` under `layouts/`. You can call other templates within blocks too by using `{{ .Render "tmpl_name" }}`. The file `layouts/tmpl_name.html` should exist for this to work.
+### Single pages
+For any page, if nothing else matches, the template used is `layouts/single.html`. Some variables that are available are: `.Title`, `.Content`, `.Date`, etc.
+### List pages
+`layouts/list.html` is the template for directories (list pages). They work regardless of whether an `_index.md` file is present in the root of that directory. The `.Pages` variable gives all the pages in that directory.
+### Partials
+These are small templates that are like "components" and can be used to build larger templates. E.g. You might have a "navbar component" that you want to use in different places in your site. It can be placed under `layouts/partials/` as `navbar.html`. You can use the content in it by using `{{ partial "navbar.html" }}`.
