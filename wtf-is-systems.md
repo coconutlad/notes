@@ -1,6 +1,6 @@
 # What in the unholy fsck is "systems"? 🔮
-> Yuck! I hate this mess of AI/ML, data science and the unnecessary hype around it. I think I'll do systems :)
-> – <cite>Students, including me, after learning ML in college</cite>
+> Yuck! I hate this mess of AI/ML, data science and the unnecessary hype around it. I think I'll do systems :)  
+> &mdash; <cite>Students, including me, after learning ML in college</cite>
 
 Sure, you can find the definition on Wikipedia or other Q&A sites on the web but I think they don't fit well in conversations or they just throw too much info at you. I hope to answer this question concisely at the end of this … uhh … whatever this is.
 
@@ -37,10 +37,11 @@ Hmmm .. looks like there's too much variation. Maybe you should just tell people
 * [This article explains what systems programming is.](https://hackernoon.com/systems-programming-d5917e41353f) I think it's pretty good.
 
 ## Soo … What do you do again? 😪
-This is what I shall use when someone asks me what "systems programming" means: 
-**Developing performant software that interacts with operating system and other computer hardware closely. It is the base for application software and other software where programmers are the end-users.**. Ehhh… I don't think that's an amazing answer or anything. Just tell them whatever you feel like telling lol.
+This is what I shall use when someone asks me what "systems programming" means:  
+**Developing performant software that interacts with operating system and other computer hardware closely. It is the base for application software and other software where programmers are the end-users.**.  
+Ehhh… I don't think that's an amazing answer or anything. Say whatever you like lol.
 
-Although, this sounds like a better answer: 
+Although, this sounds like a better answer:  
 "It means I like computers more than I like people. \* awkward silence \*. Now stfu while I configure my new terminal emulator to hide cpp warnings. Oh, btw, I use Arch."
 
 P.S. To hell with labels.
