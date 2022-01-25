@@ -60,7 +60,8 @@ I don't think I'll be using this often but I found this interesting thing hereâ€
 I suppose that kind of error handling works in other places too.
 
 ## Functions
-// TODO
+You use functions like this `{{ funcName param1 param2 }}`. There are many inbuilt ones in Hugo that you can find on [the website](https://gohugo.io/functions) including string processing and even `emojify`!  
+These are frequently used with conditional statements since `if` can only check one value for "true" or "false" (like C). You can, therefore, have powerful stuff like `if (lt $var1 .Var2)` which makes use of the `lt` function.
 
 ## Variables
 Hugo's templates are context aware and can access many values. Here are a few of the important ones
@@ -70,10 +71,12 @@ These are site level vars ("global vars"). Some of them are defined in the confi
 Holds named array of menu entries. E.g. an array `main` in the config file can be accessed as `.Site.Menus.main`.
 ### `.Title`
 Can be set in the configuration file. It's meant to be the title used in HTML.
+### Custom
+You can define custom variables within templates using `{{ $varName := varValue }}` syntax. You can access the value of the variable in other places within the template by using `{{ $varName }}`.
 
 ## Templates
 ### The `baseof` page
-You can define it under `layouts/_default/` in your project root. It's the template that all other templates inherit from. You can use **blocks** in your template files. These blocks are replaced with content while rendering the HTML files. The format is: `{{ block "blk_name" .}} {{ end }}`. You can **define blocks** in other files and the content within them will be put where the blocks are used. The format is `{{ define "blk_name" }} [content] {{ end }}`.
+You can define it under `layouts/_default/` in your project root. It's the template that all other templates inherit from. You can use **blocks** in your template files. These blocks are replaced with content while rendering the HTML files. The format is: `{{ block "blk_name" .}} [default content if the block is not defined elsewhere] {{ end }}`. You can **define blocks** in other files and the content within them will be put where the blocks are used. The format is `{{ define "blk_name" }} [content to replace the default block content] {{ end }}`.
 ### The homepage
 Create a file `index.html` under `layouts/`. You can call other templates within blocks too by using `{{ .Render "tmpl_name" }}`. The file `layouts/tmpl_name.html` should exist for this to work.
 ### Single pages
@@ -81,4 +84,7 @@ For any page, if nothing else matches, the template used is `layouts/single.html
 ### List pages
 `layouts/list.html` is the template for directories (list pages). They work regardless of whether an `_index.md` file is present in the root of that directory. The `.Pages` variable gives all the pages in that directory.
 ### Partials
-These are small templates that are like "components" and can be used to build larger templates. E.g. You might have a "navbar component" that you want to use in different places in your site. It can be placed under `layouts/partials/` as `navbar.html`. You can use the content in it by using `{{ partial "navbar.html" }}`.
+These are small templates that are like "components" and can be used to build larger templates. E.g. You might have a "navbar component" that you want to use in different places in your site. It can be placed under `layouts/partials/` as `navbar.html`. You can use the content in it by using `{{ partial "navbar.html" }}`. You can also pass a variable to your partial, like so: `{{ partial "navbar.html" .}}`.
+
+## Note
+* With both blocks and partials, you can pass in a single variable to block/partial definition. It's the last parameter and usually `.` but you can pass other variables too. You can even create a custom variable using `(dict key1 value1 key2 value2 ...)` and the definition can access the values through the keys like this: `.key1`.
