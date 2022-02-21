@@ -10,3 +10,5 @@ I hope this isn't illegal.
 * [practice](./practice.md)
 * [hugo](./hugo-how.md)
 * [wtf is systems](./wtf-is-systems.md)
+* [quotes](./quotes.md)
+* [Useful tools](./toolkit.md)
