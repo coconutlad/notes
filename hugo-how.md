@@ -1,5 +1,5 @@
 # Hugo 😺
-I like [Hugo](https://gohugo.io). All the websites I build use Hugo. It's only fair to learn to use it correctly (or just enough to be productive) and know what to do when things don't work.
+I like [Hugo](https://gohugo.io). Edit: Maybe not so much. The learning curve is okay but its a little bit hard to really understand how Hugo works from what is available online. While using a theme is a smooth experience, creating one or designing a website without one is a little more difficult.
 
 ## References
 * [The OG Hugo docs](https://gohugo.io/documentation/)
@@ -41,7 +41,7 @@ They are small snippets you can use in content files (i.e. Markdown) that render
 * `{{< figure src="/media/spf13.jpg" title="Steve Francia" >}}`
 * `{{< instagram BWNjjyYFxVx hidecaption >}}`
 ### Page Bundles
-A leaf bundle is a **regular** page while a branch bundle is a **list** page. A leaf bundle is a directory that has an `index.md` while a branch bundle has an `_index.md`. There can be other bundles nested under a branch bundle. **A page bundle is a directory that has `_index.md` or `index.md` at its root**. 
+A page bundle can either be a leaf bundle or a branch bundle. A leaf bundle is a **regular** page while a branch bundle is a **list** page. A leaf bundle is a directory that has an `index.md` while a branch bundle has an `_index.md`. There can be other bundles nested under a branch bundle.
 ### Page resources
 Images, other pages, and data files are available to the page they are bundled with. They can be accessed via `Resources.ByType` or `Resources.Match`. Their content and meta-data can be accessed.
 
