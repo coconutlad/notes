@@ -12,3 +12,4 @@ I hope this isn't illegal.
 * [wtf is systems](./wtf-is-systems.md)
 * [quotes](./quotes.md)
 * [useful tools](./toolkit.md)
+* [modern software development](./modern-dev.md)
