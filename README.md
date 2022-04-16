@@ -13,3 +13,4 @@ I hope this isn't illegal.
 * [quotes](./quotes.md)
 * [useful tools](./toolkit.md)
 * [modern software development](./modern-dev.md)
+* [fancy toolkit](./fancy-toolkit.md)

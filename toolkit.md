@@ -16,5 +16,7 @@ For things that aren't mentioned, the defaults probably work just fine or I have
 * **Plugin manager for vim** : [vim-plug](https://github.com/junegunn/vim-plug)
 * **Word document editor** : [Google Docs](https://docs.google.com) (Google slides for presentations and sheets for excel stuff).
 * **PDF Viewer** : Your browser (MS Edge has some nice additional tools)
-* **Hosting static content** : GitHub pages (repository settings > pages) + GitHub actions.
+* **Hosting static content** : GitHub pages (repository settings > pages) + GitHub actions.  
+  (GitLab works too in case you're against GitHub)
 * **Online IDE** : [CodeSandbox](https://codesandbox.io) (Has real-time collaboration). Easy setup if you have a GitHub account.
+* **Pictures** : [Pexels](https://www.pexels.com/) has good quality CC pictures and a fast search bar :)

@@ -14,3 +14,9 @@ Some things that people said, that I agree with (when I found them).
 "Expectations are the thief of joy" - [MKBHD](https://twitter.com/mkbhd/status/1429768663658377218?lang=en)
 
 "All generalizations are false, including this one" - Mark Twain
+
+"Be skeptical. But when you get proof, accept proof." – [Michael Specter](https://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
+
+"Not my problem" - [someecards](https://www.someecards.com/usercards/viewcard/f67dccf33389fddd2a9271a62eaf7b07/)
+
+"Couldn't give a shit" - Jen & Roy
