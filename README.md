@@ -14,3 +14,4 @@ I hope this isn't illegal.
 * [useful tools](./toolkit.md)
 * [modern software development](./modern-dev.md)
 * [fancy toolkit](./fancy-toolkit.md)
+* [ez pz python IPC](./ez-pz-python-ipc.md)
