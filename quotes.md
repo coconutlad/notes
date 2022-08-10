@@ -20,3 +20,9 @@ Some things that people said, that I agree with (when I found them).
 "Not my problem" - [someecards](https://www.someecards.com/usercards/viewcard/f67dccf33389fddd2a9271a62eaf7b07/)
 
 "Couldn't give a shit" - Jen & Roy
+
+"We should avoid entering the trap in which the cost of planning exceeds the cost of making the wrong decision" - [Biggest Fish](https://biggestfish.substack.com/p/planning-is-for-doing?s=r)
+
+"Why should I care what color the bike shed is?" AKA "bikeshedding" - [bikeshed.com](https://www.bikeshed.com/)
+
+"The price of anything is the amount of life you exchange for it." - Henry David Thoreau
