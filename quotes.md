@@ -26,3 +26,7 @@ Some things that people said, that I agree with (when I found them).
 "Why should I care what color the bike shed is?" AKA "bikeshedding" - [bikeshed.com](https://www.bikeshed.com/)
 
 "The price of anything is the amount of life you exchange for it." - Henry David Thoreau
+
+"Don't try to achieve SOLID. Use SOLID to achieve maintainability" - [Katerina Trajchevska](https://www.youtube.com/watch?v=rtmFCcjEgEw)
+
+"First make the change easy, then make the easy change" - [Kent Beck](https://www.adamtal.me/2019/05/first-make-the-change-easy-then-make-the-easy-change)
