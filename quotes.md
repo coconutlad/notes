@@ -30,3 +30,7 @@ Some things that people said, that I agree with (when I found them).
 "Don't try to achieve SOLID. Use SOLID to achieve maintainability" - [Katerina Trajchevska](https://www.youtube.com/watch?v=rtmFCcjEgEw)
 
 "First make the change easy, then make the easy change" - [Kent Beck](https://www.adamtal.me/2019/05/first-make-the-change-easy-then-make-the-easy-change)
+
+"We’re not paid to write code, we’re paid to add value (or reduce cost) to the business … new systems mean new problems" - [Tyler Treat](https://bravenewgeek.com/you-are-not-paid-to-write-code/)
+
+"The primary goal of software development is to reduce the lead time to deliver business value. … Code is the cost of getting that business impact." - [Adrià Fontcuberta](https://afontcu.dev/goal-of-software-development/)
