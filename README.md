@@ -15,3 +15,6 @@ How to make notes: Do stuff first (includes reading / watching videos). Finish i
 * [modern software development](./modern-dev.md)
 * [ez pz python IPC](./ez-pz-python-ipc.md)
 * [nice stuff to read / watch / listen](./reading-material.md)
+
+## special mention
+<https://thevaluable.dev/vim-advanced/> - a vim guide for beginners, intermediate, and advanced users.
