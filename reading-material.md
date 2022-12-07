@@ -16,3 +16,6 @@
 
 ## Presentations
 [Modern CSS](https://speaking.ireaderinokun.com/c77PcP/css-for-the-next-billion-users)
+
+## Other lists (inception...)
+[Tech Related material](https://github.com/afontcu/awesome-learning)
