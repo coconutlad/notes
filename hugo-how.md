@@ -88,3 +88,5 @@ These are small templates that are like "components" and can be used to build la
 
 ## Note
 * With both blocks and partials, you can pass in a single variable to block/partial definition. It's the last parameter and usually `.` but you can pass other variables too. You can even create a custom variable using `(dict key1 value1 key2 value2 ...)` and the definition can access the values through the keys like this: `.key1`.
+
+P.S. Just use HTML :)
